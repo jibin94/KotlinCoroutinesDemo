@@ -23,11 +23,12 @@ user experience in Android applications.
 
 ```
 fun fetchData() {
-Thread {
-Thread.sleep(5000) // Blocks the thread
-println("Data fetched!")
-}.start()
+    Thread {
+        Thread.sleep(5000) // Blocks the thread
+        println("Data fetched!")
+    }.start()
 }
+
 ```
 
 Threads are expensive: Creating a new thread for each background task consumes system resources.
