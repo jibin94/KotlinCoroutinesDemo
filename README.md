@@ -51,6 +51,7 @@ Suspending vs blocking: delay() suspends the coroutine without blocking the unde
 Efficiency: Coroutines use cooperative multitasking, resuming only when needed.
 
 🌐 Coroutine Scopes
+
 A CoroutineScope defines the lifecycle of coroutines. Choosing the correct scope ensures tasks are
 cancelled automatically when they are no longer needed, preventing memory leaks and crashes.
 
